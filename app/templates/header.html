@@ -6,7 +6,7 @@
                   method="{{ 'GET' if config.get_only else 'POST' }}">
                 <a class="logo-link mobile-logo" href="home">
                     <div id="mobile-header-logo">
-                        {{ logo|safe }}
+                        <img class="desktop-header-logo" src="static/img/logo.png">
                     </div>
                 </a>
                 <div class="H0PQec mobile-input-div">
@@ -55,9 +55,7 @@
     <header>
         <div class="logo-div">
             <a class="logo-link" href="home">
-                <div class="desktop-header-logo">
-                    {{ logo|safe }}
-                </div>
+                    <img class="desktop-header-logo" src="static/img/logo.png">
             </a>
         </div>
         <div class="search-div">

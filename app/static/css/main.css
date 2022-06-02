@@ -11,6 +11,7 @@ body {
 
 .logo-container {
     max-height: 500px;
+    align-self: center;
 }
 
 .home-search {

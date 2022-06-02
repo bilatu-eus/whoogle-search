@@ -23,7 +23,6 @@
     <script type="text/javascript" src="{{ cb_url('controller.js') }}"></script>
     <link rel="search" href="opensearch.xml" type="application/opensearchdescription+xml" title="Whoogle Search">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ cb_url('logo.css') }}">
     {% if config.theme %}
         {% if config.theme == 'system' %}
             <style>
@@ -56,12 +55,12 @@
         </style>
     </noscript>
     <style>{{ config.style }}</style>
-    <title>Whoogle Search</title>
+    <title>Bilatu</title>
 </head>
 <body id="main">
 <div class="search-container">
     <div class="logo-container">
-        {{ logo|safe }}
+        <img style="width: 100%;" src="static/img/logo.png">
     </div>
     <form id="search-form" action="search" method="{{ 'get' if config.get_only else 'post' }}">
         <div class="search-fields">
