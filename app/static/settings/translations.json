@@ -43,7 +43,9 @@
         "videos": "Videos",
         "news": "News",
         "books": "Books",
-        "anon-view": "Anonymous View"
+        "anon-view": "Anonymous View",
+        "footer": "Bilatu | Your Google searches in private mode.",
+        "about" : "About"
     },
     "lang_nl": {
         "search": "Zoeken",
@@ -457,7 +459,9 @@
         "videos": "Vidéos",
         "news": "Actualités",
         "books": "Livres",
-        "anon-view": "Vue anonyme"
+        "anon-view": "Vue anonyme",
+        "footer": "Bilatu | Vos recherche Google en mode privé.",
+        "about" : "A propos"
     },
     "lang_fa": {
         "search": "جستجو",
